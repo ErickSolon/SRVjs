@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Sistema de Revenda de Veículos JS</title>
+  </head>
+
+  <body>
+    <h1>Sistema de Revenda de Veículos JS</h1>
+    <form name="Simulacao">
+      <div>
+        <label for="">Veículo</label>
+        <input type="text" name="veiculo" id="veiculo" />
+      </div>
+      <div>
+        <label for="ano">Ano do veiculo</label>
+        <input type="date" name="ano" id="ano" />
+      </div>
+      <div>
+        <label for="preco">Preço</label>
+        <input type="number" name="preco" id="preco" min="0" />
+      </div>
+      <div>
+        <input type="submit" value="Ver simulação" />
+      </div>
+    </form>
+
+    <section>
+      <div>
+        <h3>Simulação</h3>
+        <h4 id="infoVeiculo"></h4>
+        <h4 id="valEntrada"></h4>
+        <h4 id="valParcela"></h4>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
